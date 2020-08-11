@@ -1,0 +1,15 @@
+Ubuntu安装字体的方法
+基本步骤如下：
+
+1. 将要安装的字体放在一个文件夹下，以/home/UsrName/Download/Font为例
+
+2.在终端中输入
+
+sudo cp -r /home/UsrName/Download/Font /usr/share/fonts/ 
+即将字体文件夹全部复制到/usr/share/fonts/目录下
+
+3.在终端中依次输入以下三条命令：
+
+sudo mkfontscale
+sudo mkfontdir
+sudo fc-cache -fv
