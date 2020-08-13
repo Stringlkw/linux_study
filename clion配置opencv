@@ -1,0 +1,4 @@
+find_package(OpenCV REQUIRED)
+target_link_libraries(Demo ${OpenCV_LIBS})
+
+其中demo为工程名，与project(Demo)中的名称保持一致即可
