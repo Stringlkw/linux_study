@@ -1,0 +1,16 @@
+conda 配置清华源
+先在终端中输入 vim  .condarc
+用vscode打开也行
+
+然后在文件中输入以下内容，保存退出即可
+
+
+
+channels:
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+show_channel_urls: true
+ssl_verify: true
